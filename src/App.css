@@ -1,0 +1,19 @@
+body
+{
+    background-image: url(https://lh3.googleusercontent.com/proxy/DvwecgcxulcEUkaHR3vEL_AaHyeIaRf3KPhvB9DdiPTyfmAJ4l2AVJifUJJOzjqqLL7_AtmXhTiiMEr0Dxkr2xs-AsF-bbDf86qjBHQ=w530-h278-p);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.App{
+    border: 1px solid white;
+    width: 27%;
+    padding: 5%;
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 19%;
+    margin-top: 17%;
+    height: 260px;
+    text-align: center;
+    position: fixed;
+
+}

@@ -44,7 +44,7 @@ startTimer() {
   render() {
     return (
 
-       <div>
+       <div className='App'>
         <Time ms={this.state.ms} />
         <Btn start={this.startTimer} isOn={this.state.isOn} stop={this.stopTimer} reset={this.resetTimer} />
       </div>

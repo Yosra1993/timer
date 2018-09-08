@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './btn.css';
+import { Button } from 'react-bootstrap';
 
 class Btn extends Component {
   constructor(props)
@@ -13,8 +14,6 @@ Onclick()
   if(this.props.isOn==false)
   return this.props.start
   return this.props.stop
-
-  
 }
 reset()
 {
@@ -23,9 +22,10 @@ reset()
 
   render() {
     return (
-       <div className='btn btn-outline-secondary'>
-        <input type='button' value='Start' onClick={this.Onclick()} />
-        <input type='button' value='Reset' onClick={this.reset()}/>
+       <div className='btn'>
+        <Button bsStyle="info" onClick={this.Onclick()}>Start</Button>
+        <input className='btn btn-info'type='button' value='Reset' onClick={this.reset()} style={{marginLeft:'20px'}}/>
+    
       </div>
         
       

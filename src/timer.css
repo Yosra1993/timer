@@ -1,8 +1,4 @@
-.time
-{
-    text-align: center;
 
-}
 .time1
 {
     font-size: 50px;
@@ -10,8 +6,7 @@
 .container
 {
     display: flex;
-    justify-content: center;
-    margin-top: -66px;
+    margin-top: -19px;
     color: gray;
 }
 .hour
